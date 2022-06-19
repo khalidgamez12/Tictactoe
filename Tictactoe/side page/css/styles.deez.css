@@ -1,0 +1,70 @@
+@font-face {
+    font-family: ninja naruto;
+    src: url("njnaruto.ttf");
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 1224px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.tile {
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    font-size: 100px;
+    text-align: center;
+    font-family: ninja naruto;
+}
+
+body {
+    font-family: ninja naruto;
+}
+
+button {
+    font-family: street explorer;
+    color: white;
+    width: fit-content;
+    background-color: green;
+    -webkit-animation: zoom-in-out 1s linear 0s infinite normal;
+    -moz-animation: zoom-in-out 1s linear 0s infinite normal;
+    -ms-animation: zoom-in-out 1s linear 0s infinite normal;
+    animation: zoom-in-out 1s linear 0s infinite normal;
+    @-webkit-keyframes zoom-in-out {
+        0% {}
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom-in-out {
+    0% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.Downgrade {
+    background-color: red;
+}

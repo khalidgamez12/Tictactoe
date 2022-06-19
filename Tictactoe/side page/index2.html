@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/gameAI2.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="images/AppIcon-1.png">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="tile" id="1" onclick="tileClick(this,'1')"></div>
+        <div class="tile" id="2" onclick="tileClick(this,'2')"></div>
+        <div class="tile" id="3" onclick="tileClick(this,'3')"></div>
+        <div class="tile" id="4" onclick="tileClick(this,'4')"></div>
+        <div class="tile" id="5" onclick="tileClick(this,'5')"></div>
+        <div class="tile" id="6" onclick="tileClick(this,'6')"></div>
+        <div class="tile" id="7" onclick="tileClick(this,'7')"></div>
+        <div class="tile" id="8" onclick="tileClick(this,'8')"></div>
+        <div class="tile" id="9" onclick="tileClick(this,'9')"></div>
+    </div>
+    <span class="difficulty-choice">The difficulty Is: Medium</span>
+    <div style="text-align: center;margin-top: 100px;">
+
+        <button onclick="location.reload();" class="Reload">Reload Game</button> <button onclick="ToHard()" class="Upgrade Iq">Upgrade Iq</button> <button onclick="ToEasy()" class="Downgrade Iq">Downgrade IQ</button>
+    </div>
+
+</body>
+
+</html>

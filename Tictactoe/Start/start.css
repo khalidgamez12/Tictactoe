@@ -1,0 +1,79 @@
+@font-face {
+    font-family: street explorer;
+    src: url('../Start/fonts/street-explorer-font/StreetExplorer-X3Y9Z.otf');
+}
+
+.by {
+    text-align: end;
+}
+
+body {
+    background-color: pink;
+    font-family: street explorer;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.Medium {
+    background-color: YELLOW;
+}
+
+.Hard {
+    background-color: RED;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.VERYHard {
+    background-color: black;
+}
+
+button {
+    font-family: street explorer;
+    color: white;
+    width: fit-content;
+    background-color: green;
+    -webkit-animation: zoom-in-out 1s linear 0s infinite normal;
+    -moz-animation: zoom-in-out 1s linear 0s infinite normal;
+    -ms-animation: zoom-in-out 1s linear 0s infinite normal;
+    animation: zoom-in-out 1s linear 0s infinite normal;
+    @-webkit-keyframes zoom-in-out {
+        0% {}
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom-in-out {
+    0% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.Easydeez {
+    background: url('images/maxresdefault.jpg')
+}
